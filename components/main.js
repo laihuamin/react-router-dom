@@ -4,7 +4,7 @@ import Home from './home.js';
 import Rouster from './rouster.js';
 import Schedule from './schedule.js';
 
-const Main = () => {
+const Main = () => (
     <main>
         <Switch>
             <Route exact path="/" component={home} />
@@ -12,6 +12,6 @@ const Main = () => {
             <Route path="/schedule" component={Schedule} />
         </Switch>
     </main>
-}
+)
 
 export default Main;
